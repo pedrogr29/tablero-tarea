@@ -56,22 +56,18 @@ render();
 
 
 
-function actualizarContador() {
-  const pendientes = tareas.filter(t => !t.hecha).length;
-  document.getElementById('contador').textContent = pendientes + ' tareas pendientes';
-}
-document.addEventListener('tareas:cambio', actualizarContador);
-actualizarContador();
+// ===== Zona A: contador de pendientes (sesión 2) =====
 
 
 
 // ===== Zona B: limpiar completadas (sesión 2) =====
-document.getElementById('limpiar').addEventListener('click', () => {
-  tareas = tareas.filter(t => !t.hecha);
-  guardar();
-  render();
+
+
+
+const botonTema = document.getElementById('tema');
+if (localStorage.getItem('tema') === 'oscuro') document.body.classList.add('oscuro');
+botonTema.addEventListener('click', () => {
+  document.body.classList.toggle('oscuro');
+  localStorage.setItem('tema', document.body.classList.contains('oscuro') ? 'oscuro' : 'claro');
 });
-
-
-// ===== Zona C: tema oscuro (sesión 2) =====
 

@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <h1>Tablero de tareas de Pedro Gastelum</h1>
+  <title>Tablero de tareas</title>
   <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
   <header>
-    <h1>Tablero de tareas</h1>
+    <h1>Tablero de tareas de Raul Ortega</h1>
     <p class="subtitulo">Proyecto del taller de Git y GitHub</p>
-    <!-- Zona C: botón de tema -->
+    <button id="tema" type="button">Tema oscuro</button>
   </header>
 
   <main>
@@ -19,13 +19,12 @@
         <input id="texto" type="text" placeholder="Escribe una tarea" required>
         <button type="submit">Agregar</button>
       </form>
-      <p id="contador">0 tareas pendientes</p>
+      <!-- Zona A: contador -->
     </section>
 
     <section class="tareas">
       <ul id="lista"></ul>
       <!-- Zona B: botón limpiar -->
-      <button id="limpiar" type="button">Limpiar completadas</button>
     </section>
   </main>
 
