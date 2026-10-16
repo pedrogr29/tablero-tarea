@@ -10,6 +10,14 @@ Una app web sencilla para anotar tareas: agregar, marcar como hecha y borrar. La
 
 Abre `index.html` en el navegador. No necesita instalar nada.
 
+## Cómo usarlo
+
+1. Escribe una tarea y presiona **Agregar**.
+2. Haz clic en la tarea para marcarla como hecha.
+3. Presiona **X** para borrarla.
+
+Repositorio: [tablero-tarea](https://github.com/pedrogr29/tablero-tarea)
+
 ## Equipo
 
 - Pedro Gastelum
