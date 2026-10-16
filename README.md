@@ -12,7 +12,7 @@ Abre `index.html` en el navegador. No necesita instalar nada.
 
 ## Equipo
 
-- (agrega tu nombre)
+- Pedro Gastelum
 
 ## Funciones agregadas en el taller
 
